@@ -32,4 +32,4 @@ Thereafter that device auto-pulls on start and auto-pushes on stop like the rest
 - Concurrent sessions/machines all push to the same `main`; the `pull --rebase` before push avoids
   clobbering. Complements the explicit [[B-054]] session-handoff path for rich HANDOFF notes.
 - If your git host uses a credential helper that pins to one active account, an account drift can make
-  pushes fail silently — see [[B-189]].
+  pushes fail silently — see [[B-179]].

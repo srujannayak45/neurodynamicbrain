@@ -75,7 +75,7 @@ effector — wire your own `handoff.sh` + `harvest.py` and update this `effector
 - Best-effort cross-machine sync, not a transaction — if push fails (offline), the note is still
   committed locally and pushes on the next handoff.
 - To AUTOMATE on session stop, a `Stop` hook can run the push — see [[B-129]] (auto-sync hooks). If your
-  git host uses a per-account credential helper, watch for the silent auth-drift failure in [[B-189]].
+  git host uses a per-account credential helper, watch for the silent auth-drift failure in [[B-179]].
 
 Related cells: [[B-054]] (central-memory fact + per-machine boundary), [[B-129]] (auto-sync hooks),
 [[B-137]] (session storage locations), [[B-003]] (git identity).
