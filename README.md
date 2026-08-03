@@ -1,5 +1,7 @@
 # neurodynamicbrain
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/chandrasaripaka/neurodynamicbrain?style=social)](https://github.com/chandrasaripaka/neurodynamicbrain/stargazers)
+
 **A cross-project memory for coding agents, designed as a three-layer perceptron.**
 
 This repo holds one document — **[ND_BRAIN_PUBLIC.md](ND_BRAIN_PUBLIC.md)** — a reference architecture for giving an AI agent (Claude Code, or any tool-using agent) a memory that *learns* across sessions and projects instead of re-deriving everything each time. It reads the design through Frank Rosenblatt's *Principles of Neurodynamics* (Cornell Aeronautical Laboratory, 1961): the agent's memory is modelled as a perceptron with sensory (S), association (A), and response (R) units.
